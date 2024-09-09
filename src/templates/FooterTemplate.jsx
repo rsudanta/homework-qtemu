@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FooterComponent() {
+export default function FooterTemplate() {
     return (
         <>
             <div className="mt-4">

@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import NavbarComponent from './components/NavbarComponent';
-import MainComponent from './components/MainComponent';
-import FooterComponent from './components/FooterComponent';
+import FooterTemplate from './templates/FooterTemplate';
+import MainTemplate from './templates/MainTemplate';
+import NavbarTemplate from './templates/NavbarTemplate';
 
 function App() {
   return (
     <div>
-      <NavbarComponent />
+      <NavbarTemplate />
       <div className='container mt-3'>
-        <MainComponent />
-        <FooterComponent />
+        <MainTemplate />
+        <FooterTemplate />
       </div>
     </div>
   );
